@@ -1,18 +1,31 @@
-## Getting Started
+# Bank Management System (Java + JDBC)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple command-line bank application built using Java and MySQL.
+
+## Features
+- Create account
+- Deposit money
+- Withdraw money
+- Check balance
+- View transactions
+
+## Requirements
+- Java installed
+- MySQL installed
+
+## Setup Instructions
+1. Create a database in MySQL
+2. Create the 'accounts' and 'transactions' tables
+3. Update your MySQL username and password in 'DBUtil.java'
+4. Run the app using the run.bat file
 
 ## Folder Structure
+Bank-management-system/
+├── src/
+├── lib/
+└── run.bat
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+## Author
+Nirmal Bharathi
+```
