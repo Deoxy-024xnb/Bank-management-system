@@ -20,10 +20,12 @@ A simple command-line bank application built using Java and MySQL.
 4. Run the app using the run.bat file
 
 ## Folder Structure
+```bash
 Bank-management-system/
 ├── src/
 ├── lib/
 └── run.bat
+```
 
 ```
 ## Author
